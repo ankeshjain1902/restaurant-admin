@@ -1,9 +1,53 @@
-/* add-restaurant.component.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .card {
-    margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .form-control {
+    width: auto;
   }
-  
-  .invalid-feedback {
-    color: red;
+
+  .btn {
+    margin-bottom: 10px;
   }
-  
+}

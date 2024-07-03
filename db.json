@@ -83,16 +83,16 @@
     },
     {
       "name": "Dalle dA dHABA",
-      "description": "Dalle de dhaba wrjiotjgty45ioytr",
+      "description": "Dalle de dhaba",
       "location": "Mohali, Sas Nagar, Punjab, IND",
       "menuItems": [
         {
-          "itemName": "paneer",
-          "itemDescription": ""
+          "name": "paneer",
+          "description": ""
         },
         {
-          "itemName": "mango",
-          "itemDescription": ""
+          "name": "mango",
+          "description": ""
         }
       ],
       "id": 6
@@ -122,36 +122,24 @@
           "description": "rghfdhb"
         },
         {
-          "name": "loda lasan",
+          "name": "curd",
           "price": 20,
-          "description": "chuppe marn ke bad roz"
+          "description": "nothing"
         }
       ]
-    }
-  ],
-  "users": [
+    },
     {
-      "emailId": "raj@email.com",
-      "name": "raj",
-      "mobile": 9876543210,
-      "password": "123456789",
-      "id": 1
-    }
-  ],
-  "book": [
-    {
-      "selectedSeats": [
-        "A 5",
-        "A 6",
-        "A 7",
-        "A 8",
-        "A 9"
-      ],
-      "seatstoStore": [],
-      "totalamount": 2500,
-      "cartId": "",
-      "eventId": 0,
-      "id": 1
+      "id": 10,
+      "name": "efaff",
+      "description": "ghdgj",
+      "location": "Jaipur",
+      "menuItems": [
+        {
+          "name": "paneer",
+          "price": 565,
+          "description": "5657567"
+        }
+      ]
     }
   ]
 }

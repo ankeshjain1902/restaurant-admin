@@ -2,6 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Restaurant } from '../models/restaurant.model';
 import { RestaurantService } from '../services/restaurant.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-restaurant-list',
@@ -11,7 +12,7 @@ import { RestaurantService } from '../services/restaurant.service';
 export class RestaurantListComponent implements OnInit {
   restaurants: Restaurant[] = [];
 
-  constructor(private restaurantService: RestaurantService) {}
+  constructor(private restaurantService: RestaurantService, private router: Router) {}
 
   ngOnInit(): void {
     this.fetchRestaurants();
@@ -44,6 +45,7 @@ export class RestaurantListComponent implements OnInit {
       () => {
         console.log('Deleted restaurant with ID:', id);
         this.fetchRestaurants(); // Refresh restaurant list after deletion
+        this.router.navigate(['/']); // Navigate to restaurant list after adding
       },
       (error) => {
         console.error(`Error deleting restaurant with ID ${id}:`, error);
