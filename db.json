@@ -1,0 +1,157 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Foodie's Delight",
+      "location": "123 Main St, Cityville",
+      "description": "A cozy restaurant with a wide variety of delicious dishes.",
+      "menuItems": [
+        {
+          "name": "Pasta Carbonara",
+          "price": 12.99,
+          "description": "Spaghetti with creamy bacon and cheese sauce."
+        },
+        {
+          "name": "Grilled Salmon",
+          "price": 18.5,
+          "description": "Freshly grilled salmon fillet served with seasonal vegetables."
+        },
+        {
+          "name": "Tiramisu",
+          "price": 7.99,
+          "description": "Classic Italian dessert with coffee-flavored mascarpone."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Spice Garden",
+      "location": "456 Oak Ave, Townsville",
+      "description": "A vibrant restaurant specializing in spicy cuisines from around the world.",
+      "menuItems": [
+        {
+          "name": "Chicken Tikka Masala",
+          "price": 14.99,
+          "description": "Tender pieces of chicken in a creamy tomato-based sauce."
+        },
+        {
+          "name": "Pad Thai",
+          "price": 12.5,
+          "description": "Thai stir-fried noodles with tofu, shrimp, and peanuts."
+        },
+        {
+          "name": "Mango Lassi",
+          "price": 4.5,
+          "description": "Refreshing yogurt-based drink with mango pulp."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Burger Haven",
+      "location": "789 Elm Blvd, Villagetown",
+      "description": "Your go-to place for gourmet burgers and fries.",
+      "menuItems": [
+        {
+          "name": "Classic Cheeseburger",
+          "price": 9.99,
+          "description": "Juicy beef patty topped with cheddar cheese and fresh vegetables."
+        },
+        {
+          "name": "Truffle Fries",
+          "price": 6.5,
+          "description": "Crispy fries tossed in truffle oil and sprinkled with Parmesan."
+        },
+        {
+          "name": "Oreo Milkshake",
+          "price": 5.5,
+          "description": "Rich milkshake with chunks of Oreo cookies."
+        }
+      ]
+    },
+    {
+      "name": "Dalle dA dHABA",
+      "description": "grfrgf",
+      "location": "Delhi",
+      "id": 4
+    },
+    {
+      "name": "Mukesh",
+      "description": "dfh htrjtujty",
+      "location": "123 Main St, Cityville5365",
+      "id": 5
+    },
+    {
+      "name": "Dalle dA dHABA",
+      "description": "Dalle de dhaba wrjiotjgty45ioytr",
+      "location": "Mohali, Sas Nagar, Punjab, IND",
+      "menuItems": [
+        {
+          "itemName": "paneer",
+          "itemDescription": ""
+        },
+        {
+          "itemName": "mango",
+          "itemDescription": ""
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Dalle dA neW dHABA",
+      "description": "hfughggjg4jghngvd gt hjuig n jg",
+      "location": "Jaipur",
+      "menuItems": [
+        {
+          "name": "",
+          "price": "",
+          "description": ""
+        }
+      ],
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Dalle dA dHABA 2",
+      "description": "tdyhruty",
+      "location": "Delhi",
+      "menuItems": [
+        {
+          "name": "paneer",
+          "price": 120,
+          "description": "rghfdhb"
+        },
+        {
+          "name": "loda lasan",
+          "price": 20,
+          "description": "chuppe marn ke bad roz"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "emailId": "raj@email.com",
+      "name": "raj",
+      "mobile": 9876543210,
+      "password": "123456789",
+      "id": 1
+    }
+  ],
+  "book": [
+    {
+      "selectedSeats": [
+        "A 5",
+        "A 6",
+        "A 7",
+        "A 8",
+        "A 9"
+      ],
+      "seatstoStore": [],
+      "totalamount": 2500,
+      "cartId": "",
+      "eventId": 0,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .restaurant-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-info {
+    margin-bottom: 20px;
+  }
+  
+  .menu-section {
+    margin-top: 20px;
+  }
+  
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .item-header {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .no-menu {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #777;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .menu-item {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      text-align: center;
+    }
+  }
+  

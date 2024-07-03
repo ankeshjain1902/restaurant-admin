@@ -1,0 +1,9 @@
+/* add-restaurant.component.css */
+.card {
+    margin-top: 20px;
+  }
+  
+  .invalid-feedback {
+    color: red;
+  }
+  

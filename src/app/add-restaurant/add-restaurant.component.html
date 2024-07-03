@@ -1,0 +1,46 @@
+<!-- add-restaurant.component.html -->
+<div class="card">
+  <div class="card-header">
+    Add New Restaurant
+  </div>
+  <div class="card-body">
+    <form [formGroup]="restaurantForm" (ngSubmit)="addRestaurant()">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" class="form-control" formControlName="name">
+      </div>
+
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea id="description" class="form-control" formControlName="description" rows="3"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input type="text" id="location" class="form-control" formControlName="location">
+      </div>
+
+      <!-- Menu Items -->
+      <div formArrayName="menuItems">
+        <div *ngFor="let item of getMenuItemsControls().controls; let i = index" [formGroupName]="i">
+          <div class="mb-3">
+            <label for="name{{i}}" class="form-label">Item Name</label>
+            <input type="text" id="name{{i}}" class="form-control" formControlName="name">
+          </div>
+          <div class="mb-3">
+            <label for="price{{i}}" class="form-label">Item Price</label>
+            <input type="number" id="price{{i}}" class="form-control" formControlName="price">
+          </div>
+          <div class="mb-3">
+            <label for="description{{i}}" class="form-label">Item Description</label>
+            <textarea id="description{{i}}" class="form-control" formControlName="description" rows="2"></textarea>
+          </div>
+          <button type="button" class="btn btn-danger" (click)="removeMenuItem(i)">Remove Item</button>
+        </div>
+      </div>
+      <button type="button" class="btn btn-success" (click)="addMenuItem()">Add Menu Item</button>
+
+      <button type="submit" class="btn btn-primary" [disabled]="restaurantForm.invalid">Add Restaurant</button>
+    </form>
+  </div>
+</div>
